@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
- <header>
-    <div>  
-     <span>Grandes ofertas en comederos</span>
-     <span>Español</span>
-     <span>Arg$</span>
-    </div>
-    <nav>
-        <h1><img src="img/logo-Cat.png" alt="Cat">FrontCat&Dog<img src="img/Logo-Dog.png" alt="Dog"</h1>
-        <span>Categorias</span>
-        <span>Pets</span>
-        <span>Nosotros</span>
-        <span>Contactanos</span>
-    </nav>
- </header>
- <main>
-     <Section> 
-         <img src="img/img-fondeheroe.png" alt="heroe">
-        <h2>¡Es un placer tenerte aquí! </h2>
-        <h5>¡Comederos en descuento!</h5>
-        <a href="#Comederos">Comederos</a>
-     </Section>
-     <section> <img src="img/logo-Paw.png" alt="logo productos destacados">
-        <h2>Productos destacados</h2>
-        <span>Comederos</span><span>Accesorios</span><span>Comida</span>
-        <div> 
-         <img src="img/img-churrasquito.png" alt="Imagen Churrasquito">
-         <h3>Churrasquito</h3>
-         <p>$150</p>
-        </div>
-        <div>
-            <img src="img/img-comedero.png" alt="Imagen comedero">
-            <h3>Comedero para perros</h3>
-            <p>$250</p>
-        </div>
-        <div>
-            <img src="img/img-huesito.png" alt="Imagen huesito">
-            <h3>Juguete Huesito</h3>
-            <p>$650</p>
-        </div>
-    </section>
 
- </main>
- <footer>
-     <p style="text-align:center">Todos los derechos reservados Frontend</p>
- </footer>
+<body>
+    <header>
+        <div class="header-principal">
+            <span>Grandes ofertas en comederos</span>
+            <span>Español</span>
+            <span>Arg$</span>
+        </div>
+        <nav class="menu">
+            <h1><img src="img/logo-Cat.png" alt="Cat"><span class="h1-front">Front</span>Cat&Dog<img
+                    src="img/Logo-Dog.png" alt="Dog"</h1>
+                <span class="nav"><i class="fas fa-paw"></i>Categorias</span>
+                <span class="nav"><i class="fas fa-paw"></i>Pets</span>
+                <span class="nav"><i class="fas fa-paw"></i>Nosotros</span>
+                <span class="nav"><i class="fas fa-paw"></i>Contactanos</span>
+        </nav>
+    </header>
+    <main>
+        <Section class="heroe">
+            <h2 class="h2-heroe">¡Es un placer tenerte aquí! </h2>
+            <h5>¡Comederos en descuento!</h5>
+            <a href="#Comederos">Comederos</a>
+        </Section>
+        <section> <img src="img/logo-Paw.png" alt="logo productos destacados">
+            <h2>Productos destacados</h2>
+            <span>Comederos</span><span>Accesorios</span><span>Comida</span>
+            <div>
+                <img src="img/img-churrasquito.png" alt="Imagen Churrasquito">
+                <h3>Churrasquito</h3>
+                <p class="precios-cards">$150</p>
+            </div>
+            <div>
+                <img src="img/img-comedero.png" alt="Imagen comedero">
+                <h3>Comedero para perros</h3>
+                <p class="precios-cards">$250</p>
+            </div>
+            <div>
+                <img src="img/img-huesito.png" alt="Imagen huesito">
+                <h3>Juguete Huesito</h3>
+                <p class="precios-cards">$650</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-top">
+            <a href="https://goo.gl/maps/bthjvtbBBd9Tm7Uf6"><img src="img/localidad-footer.png" alt="localidad"></a>
+            <span>
+                <h3 class="footer-top-contac">Localidad</h3>
+            </span>
+            <a href="tel:+542984919968"><img src="img/tel-footer.png" alt="Telefono"></a>
+            <span>
+                <h3 class="footer-top-contac">Telofono</h3>
+            </span>
+            <a href="mailto:brunoab96@gmail.com"><img src="img/email-footer.png" alt="Email"></a>
+            <span>
+                <h3 class="footer-top-contac">Correo Electronico</h3>
+            </span>
+            <h3><img src="img/logo-Cat.png" alt="Cat"><span class="h1-front">Front</span><span
+                    class="color-logo-footer">Cat&Dog</span><img src="img/Logo-Dog.png" alt="Dog" </h3>
+        </div>
+
+        <div class="footer-bottom">
+            <p style="text-align:center">Todos los derechos reservados Frontend</p>
+        </div>
+    </footer>
 </body>
+
 </html>

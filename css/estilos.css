@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.header-principal{background-color: #222222; height: 30px; color: white; font-family:'Roboto', sans-serif; font-size: 10px ; line-height: 2; font-style: normal;}
+.menu{background-color: #F0A83E;}
+.heroe{background: cornsilk url("../img/img-fondeheroe.png") no-repeat ; color: #3C2313; text-align: center; font-size: 30px;
+    background-position: center;
+background-size: cover; height: 409px;}
+h5{font-size: 16px; font-style: normal; height: 16px;font-weight: 400}
+h1, h2, h3, h5, p{color:white; font-family:'Roboto', sans-serif; font-weight: bold; ; font-size: 20px; line-height: 3; font-style: normal;}
+.h1-front{color: black}
+.color-logo-footer{color: white;}
+h3, p{font-style: normal; font-weight: 500; font-size: 15px; color:#3C2313;}
+h2{color: #3C2313; font-size: 40px;}
+.nav{font-family:'Roboto', sans-serif; font-style: normal; font-size: 13px; font-weight: normal;}
+.precios-cards{color: #F0A83E;}
+.footer-top{ background-color: #3C2313;}
+.footer-top-contac{ color: white; font-family: font-family:'Roboto', sans-serif; font-weight: 700; ; font-size: 20px; line-height: 3; font-style: normal;}
+.footer-bottom{background-color:#F0A83E; color: white;}
